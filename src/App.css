@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between; /* Adiciona distribuição de espaço */
+  background-color: #13626D;
+  height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  align-items: center;
+  padding: 0 20px; /* Adiciona padding igual em ambos os lados */
+}
+
+.custom-heading {
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  /* Add any other custom styles */
+}
+
+/* Remover todo o estilo padrão do link com o ID 'procempa-titulo' */
+#procempa-titulo {
+  text-decoration: none; /* Remove o sublinhado do link */
+}
+
+/* Estilo do parágrafo dentro do link para parecer 'secreto' */
+#procempa-titulo p {
+  color: white; /* Cor do texto branco */
+  font-style: italic; /* Fonte itálica */
+}
